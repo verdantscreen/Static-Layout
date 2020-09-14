@@ -1,0 +1,194 @@
+body {
+  margin: 0%;
+  font-family: "Arial";
+}
+
+.s1 {
+  background-image: linear-gradient(90deg, #040c11, #0f485a);
+}
+
+nav {
+  float: right;
+  cursor: pointer;
+  padding-right: 40px;
+  padding-top: 0px;
+}
+
+.login {
+  color: white;
+  text-decoration: none;
+}
+
+.login:hover {
+  color: #a8b3b7;
+}
+
+.flex1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.hululogo {
+  width: 25%;
+  height: 25%;
+}
+
+.FTbutton {
+  background-color: #00ed82;
+  color: black;
+  border: solid 1px #00ed82;
+  border-radius: 6px;
+  height: 40px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.FTlink {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.s2 {
+  margin: 0%;
+  height: 160px;
+  background-image: linear-gradient(90deg, #040c11, #0f485a);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  /*align-content: space-between;*/
+  margin: 0%;
+}
+
+.h5color {
+  text-align: left;
+  color: #2dbd9d;
+}
+
+#h5color2 {
+  text-align: left;
+  color: #a8b3b7;
+}
+
+.moredetails {
+  color: #a8b3b7;
+}
+
+.termslink {
+  color: #a8b3b7;
+}
+
+.GBbutton {
+  align-items: center;
+  color: white;
+  height: 50px;
+  width: 110px;
+  font-family: "Arial";
+  font-weight: 600;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: solid 1px white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.GBlink {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+img {
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.s3 {
+  background-color: white;
+}
+
+.s4 {
+  background-color: white;
+}
+
+.plancompare {
+  margin: auto;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.row1grid {
+  display: inline-grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  justify-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.colhead1 {
+  text-align: center;
+}
+
+.colhead2 {
+  background-color: #f7f8fa;
+  text-align: center;
+}
+
+.colhead3 {
+  text-align: center;
+}
+
+.badge {
+  background-color: #67728a;
+  color: white;
+  font-size: 8pt;
+  border: solid 1px white;
+  border-radius: 20px;
+  height: 30px;
+  width: 120px;
+}
+
+.empty1 {
+  background-color: #f7f8fa;
+  color: #f7f8fa;
+  font-size: 8pt;
+  border: solid 1px #f7f8fa;
+  border-radius: 20px;
+  height: 30px;
+  width: 120px;
+}
+
+.empty2 {
+  background-color: white;
+  color: white;
+  font-size: 8pt;
+  border: solid 1px white;
+  border-radius: 20px;
+  height: 30px;
+  width: 120px;
+}
+
+.try {
+  background-color: black;
+  color: white;
+  border: solid 1px black;
+  border-radius: 6px;
+  height: 40px;
+  width: 150px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+hr {
+  color: #f7f8fa;
+}
